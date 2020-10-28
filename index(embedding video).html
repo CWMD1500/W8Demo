@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html manifest="demo.appcache">
+<html lang = "en">
+<head>
+  <title>CWMD1500 Web Technologies Demo</title>
+  <meta charset = "utf-8" /> 
+
+  <!--
+     Title:        
+     Filename: index.html       
+     Description: 
+  -->
+</head>
+
+<link rel="stylesheet" href="css/style.css" />
+
+<body>
+
+    <h1>CWMD1500 Web Technologies</h1>
+    <h2>Web Content Media Demos - Embedding Media</h2>
+
+    <fieldset>  
+
+        <table id="myTable">  
+
+<h3>Embedding avi Method 0: using a tag</h3>
+<br>
+<a href="videos/sample-avi-file.avi">Testing AVI</a>
+<br><br>
+        
+    
+<h3>Embedding webm Method 1: using a tag</h3>
+<br>
+<a href="videos/sample-webm-file.webm">Testing</a>
+<br><br>
+        
+<h3>Embedding webm Method 2: using video tag </h3>
+<br>
+<video controls="controls" src="videos/sample-webm-file.webm">
+    Your browser does not support the HTML5 Video element.
+</video>
+
+<h3>Embedding webm Method 3: using object tag </h3>
+<br>                              
+<object data="videos/sample-webm-file.webm" width="400px" height="200px"></object>
+</table>
+
+    </fieldset>
+
+    <br>
+
+  <script src = "scripts\script.js"></script>
+  <script src = "scripts\notes.js"></script>
+
+</body>
+</html>
